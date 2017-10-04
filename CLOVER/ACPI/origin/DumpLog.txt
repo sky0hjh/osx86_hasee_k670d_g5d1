@@ -1,0 +1,124 @@
+97:130  84:674  Found UEFI Acpi 2.0 RSDP at 64E67000
+97:130  0:000  Saving ACPI tables from RSDP 64E67000 to EFI\CLOVER\ACPI\origin ...
+97:130  0:000   64E67000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+97:130  0:000    (Xsdt: 64E670B0, Rsdt: 64E67028)
+97:130  0:000    64E670B0: 'XSDT', 'A M I', Rev: 1, Len: 228
+97:130  0:000    64E67028: 'RSDT', 'A M I', Rev: 1, Len: 132
+97:130  0:000    Tables in Xsdt: 24
+97:130  0:000    0. 64E84228: 'FACP', 'A M I', Rev: 6, Len: 276
+97:130  0:000        (Dsdt: 64E67228, Facs: 6AFC9C40, XDsdt: 64E67228, XFacs: 0)
+97:130  0:000        64E67228: 'DSDT', 'A M I', Rev: 2, Len: 118778
+97:131  0:001        6AFC9C40: 'FACS', Ver: 2, Len: 64
+97:131  0:000    1. 64E84340: 'APIC', 'A M I', Rev: 3, Len: 132
+97:131  0:000    2. 64E843C8: 'FPDT', 'A M I', Rev: 1, Len: 68
+97:131  0:000    3. 64E84410: 'MCFG', 'A M I', Rev: 1, Len: 60
+97:131  0:000    4. 64E84450: 'SSDT', 'A M I', Rev: 1, Len: 887
+97:131  0:000    5. 64E847C8: 'FIDT', 'A M I', Rev: 1, Len: 156
+97:131  0:000    6. 64E84868: 'MSDM', 'A M I', Rev: 3, Len: 85
+97:131  0:000    7. 64E848C0: 'SSDT', 'A M I', Rev: 2, Len: 12875
+97:131  0:000    8. 64E87B10: 'SSDT', 'A M I', Rev: 2, Len: 10769
+97:131  0:000    9. 64E8A528: 'HPET', 'A M I', Rev: 1, Len: 56
+97:131  0:000    10. 64E8A560: 'UEFI', 'A M I', Rev: 1, Len: 66
+97:131  0:000    11. 64E8A5A8: 'SSDT', 'A M I', Rev: 2, Len: 3806
+97:131  0:000    12. 64E8B488: 'LPIT', 'A M I', Rev: 1, Len: 148
+97:131  0:000    13. 64E8B520: 'WSMT', 'A M I', Rev: 1, Len: 40
+97:131  0:000    14. 64E8B548: 'SSDT', 'A M I', Rev: 2, Len: 671
+97:131  0:000    15. 64E8B7E8: 'SSDT', 'A M I', Rev: 2, Len: 12290
+97:131  0:000    16. 64E8E7F0: 'DBGP', 'A M I', Rev: 1, Len: 52
+97:131  0:000    17. 64E8E828: 'DBG2', 'A M I', Rev: 0, Len: 84
+97:131  0:000    18. 64E8E880: 'BGRT', 'A M I', Rev: 1, Len: 56
+97:131  0:000    19. 64E8E8B8: 'SSDT', 'A M I', Rev: 2, Len: 174
+97:131  0:000    20. 64E8E968: 'DMAR', 'A M I', Rev: 1, Len: 168
+97:131  0:000    21. 64E8EA10: 'TPM2', 'A M I', Rev: 3, Len: 52
+97:131  0:000    22. 64E8EA48: 'SSDT', 'A M I', Rev: 1, Len: 8289
+97:131  0:000    23. 64E90AB0: 'ASF!', 'A M I', Rev: 32, Len: 160
+97:131  0:000    Tables in Rsdt: 24
+97:131  0:000    0. 64E671A0: 'FACP', 'A M I', Rev: 2, Len: 132
+97:131  0:000        (Dsdt: 64E67228, Facs: 6AFC9C00)
+97:131  0:000        64E67228: 'DSDT', 'A M I', Rev: 2, Len: 118778
+97:132  0:001        6AFC9C00: 'FACS', Ver: 0, Len: 64
+97:132  0:000    1. 64E84340: 'APIC', 'A M I', Rev: 3, Len: 132
+97:132  0:000    2. 64E843C8: 'FPDT', 'A M I', Rev: 1, Len: 68
+97:132  0:000    3. 64E84410: 'MCFG', 'A M I', Rev: 1, Len: 60
+97:132  0:000    4. 64E84450: 'SSDT', 'A M I', Rev: 1, Len: 887
+97:132  0:000    5. 64E847C8: 'FIDT', 'A M I', Rev: 1, Len: 156
+97:132  0:000    6. 64E84868: 'MSDM', 'A M I', Rev: 3, Len: 85
+97:132  0:000    7. 64E848C0: 'SSDT', 'A M I', Rev: 2, Len: 12875
+97:132  0:000    8. 64E87B10: 'SSDT', 'A M I', Rev: 2, Len: 10769
+97:132  0:000    9. 64E8A528: 'HPET', 'A M I', Rev: 1, Len: 56
+97:132  0:000    10. 64E8A560: 'UEFI', 'A M I', Rev: 1, Len: 66
+97:132  0:000    11. 64E8A5A8: 'SSDT', 'A M I', Rev: 2, Len: 3806
+97:132  0:000    12. 64E8B488: 'LPIT', 'A M I', Rev: 1, Len: 148
+97:132  0:000    13. 64E8B520: 'WSMT', 'A M I', Rev: 1, Len: 40
+97:132  0:000    14. 64E8B548: 'SSDT', 'A M I', Rev: 2, Len: 671
+97:132  0:000    15. 64E8B7E8: 'SSDT', 'A M I', Rev: 2, Len: 12290
+97:132  0:000    16. 64E8E7F0: 'DBGP', 'A M I', Rev: 1, Len: 52
+97:132  0:000    17. 64E8E828: 'DBG2', 'A M I', Rev: 0, Len: 84
+97:132  0:000    18. 64E8E880: 'BGRT', 'A M I', Rev: 1, Len: 56
+97:132  0:000    19. 64E8E8B8: 'SSDT', 'A M I', Rev: 2, Len: 174
+97:132  0:000    20. 64E8E968: 'DMAR', 'A M I', Rev: 1, Len: 168
+97:132  0:000    21. 64E8EA10: 'TPM2', 'A M I', Rev: 3, Len: 52
+97:132  0:000    22. 64E8EA48: 'SSDT', 'A M I', Rev: 1, Len: 8289
+97:132  0:000    23. 64E90AB0: 'ASF!', 'A M I', Rev: 32, Len: 160
+97:132  0:000  Found UEFI Acpi 1.0 RSDP at 64E67000
+97:132  0:000  Printing ACPI tables from RSDP 64E67000 ...
+97:132  0:000   64E67000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+97:132  0:000    (Xsdt: 64E670B0, Rsdt: 64E67028)
+97:132  0:000    64E670B0: 'XSDT', 'A M I', Rev: 1, Len: 228
+97:132  0:000    64E67028: 'RSDT', 'A M I', Rev: 1, Len: 132
+97:132  0:000    Tables in Xsdt: 24
+97:132  0:000    0. 64E84228: 'FACP', 'A M I', Rev: 6, Len: 276
+97:132  0:000        (Dsdt: 64E67228, Facs: 6AFC9C40, XDsdt: 64E67228, XFacs: 0)
+97:132  0:000        64E67228: 'DSDT', 'A M I', Rev: 2, Len: 118778
+97:133  0:001        6AFC9C40: 'FACS', Ver: 2, Len: 64
+97:133  0:000    1. 64E84340: 'APIC', 'A M I', Rev: 3, Len: 132
+97:133  0:000    2. 64E843C8: 'FPDT', 'A M I', Rev: 1, Len: 68
+97:133  0:000    3. 64E84410: 'MCFG', 'A M I', Rev: 1, Len: 60
+97:133  0:000    4. 64E84450: 'SSDT', 'A M I', Rev: 1, Len: 887
+97:133  0:000    5. 64E847C8: 'FIDT', 'A M I', Rev: 1, Len: 156
+97:133  0:000    6. 64E84868: 'MSDM', 'A M I', Rev: 3, Len: 85
+97:133  0:000    7. 64E848C0: 'SSDT', 'A M I', Rev: 2, Len: 12875
+97:133  0:000    8. 64E87B10: 'SSDT', 'A M I', Rev: 2, Len: 10769
+97:133  0:000    9. 64E8A528: 'HPET', 'A M I', Rev: 1, Len: 56
+97:133  0:000    10. 64E8A560: 'UEFI', 'A M I', Rev: 1, Len: 66
+97:133  0:000    11. 64E8A5A8: 'SSDT', 'A M I', Rev: 2, Len: 3806
+97:133  0:000    12. 64E8B488: 'LPIT', 'A M I', Rev: 1, Len: 148
+97:133  0:000    13. 64E8B520: 'WSMT', 'A M I', Rev: 1, Len: 40
+97:133  0:000    14. 64E8B548: 'SSDT', 'A M I', Rev: 2, Len: 671
+97:133  0:000    15. 64E8B7E8: 'SSDT', 'A M I', Rev: 2, Len: 12290
+97:133  0:000    16. 64E8E7F0: 'DBGP', 'A M I', Rev: 1, Len: 52
+97:133  0:000    17. 64E8E828: 'DBG2', 'A M I', Rev: 0, Len: 84
+97:133  0:000    18. 64E8E880: 'BGRT', 'A M I', Rev: 1, Len: 56
+97:133  0:000    19. 64E8E8B8: 'SSDT', 'A M I', Rev: 2, Len: 174
+97:133  0:000    20. 64E8E968: 'DMAR', 'A M I', Rev: 1, Len: 168
+97:133  0:000    21. 64E8EA10: 'TPM2', 'A M I', Rev: 3, Len: 52
+97:133  0:000    22. 64E8EA48: 'SSDT', 'A M I', Rev: 1, Len: 8289
+97:133  0:000    23. 64E90AB0: 'ASF!', 'A M I', Rev: 32, Len: 160
+97:133  0:000    Tables in Rsdt: 24
+97:133  0:000    0. 64E671A0: 'FACP', 'A M I', Rev: 2, Len: 132
+97:133  0:000        (Dsdt: 64E67228, Facs: 6AFC9C00)
+97:133  0:000        64E67228: 'DSDT', 'A M I', Rev: 2, Len: 118778
+97:135  0:001        6AFC9C00: 'FACS', Ver: 0, Len: 64
+97:135  0:000    1. 64E84340: 'APIC', 'A M I', Rev: 3, Len: 132
+97:135  0:000    2. 64E843C8: 'FPDT', 'A M I', Rev: 1, Len: 68
+97:135  0:000    3. 64E84410: 'MCFG', 'A M I', Rev: 1, Len: 60
+97:135  0:000    4. 64E84450: 'SSDT', 'A M I', Rev: 1, Len: 887
+97:135  0:000    5. 64E847C8: 'FIDT', 'A M I', Rev: 1, Len: 156
+97:135  0:000    6. 64E84868: 'MSDM', 'A M I', Rev: 3, Len: 85
+97:135  0:000    7. 64E848C0: 'SSDT', 'A M I', Rev: 2, Len: 12875
+97:135  0:000    8. 64E87B10: 'SSDT', 'A M I', Rev: 2, Len: 10769
+97:135  0:000    9. 64E8A528: 'HPET', 'A M I', Rev: 1, Len: 56
+97:135  0:000    10. 64E8A560: 'UEFI', 'A M I', Rev: 1, Len: 66
+97:135  0:000    11. 64E8A5A8: 'SSDT', 'A M I', Rev: 2, Len: 3806
+97:135  0:000    12. 64E8B488: 'LPIT', 'A M I', Rev: 1, Len: 148
+97:135  0:000    13. 64E8B520: 'WSMT', 'A M I', Rev: 1, Len: 40
+97:135  0:000    14. 64E8B548: 'SSDT', 'A M I', Rev: 2, Len: 671
+97:135  0:000    15. 64E8B7E8: 'SSDT', 'A M I', Rev: 2, Len: 12290
+97:135  0:000    16. 64E8E7F0: 'DBGP', 'A M I', Rev: 1, Len: 52
+97:135  0:000    17. 64E8E828: 'DBG2', 'A M I', Rev: 0, Len: 84
+97:135  0:000    18. 64E8E880: 'BGRT', 'A M I', Rev: 1, Len: 56
+97:135  0:000    19. 64E8E8B8: 'SSDT', 'A M I', Rev: 2, Len: 174
+97:135  0:000    20. 64E8E968: 'DMAR', 'A M I', Rev: 1, Len: 168
+97:135  0:000    21. 64E8EA10: 'TPM2', 'A M I', Rev: 3, Len: 52
+97:135  0:000    22. 64E8EA48: 'SSDT', 'A M I', Rev: 1, Len: 8289
+97:135  0:000    23. 64E90AB0: 'ASF!', 'A M I', Rev: 32, Len: 160
